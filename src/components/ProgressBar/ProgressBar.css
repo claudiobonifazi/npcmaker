@@ -1,0 +1,34 @@
+.progressbar{
+    position:relative;
+    display:block;
+    width: 100%;
+    font-size: 110%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 1.5em;
+    margin: 0.5em 0;
+    background: var(--progress-backcol);
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05),
+                0 2px 2px rgba(0,0,0,0.05),
+                0 4px 4px rgba(0,0,0,0.05);
+}
+.progressbar_value,
+.progressbar_text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.progressbar_text{
+    line-height: 100%;
+    padding: 0.25em;
+    color: #fff;
+    opacity: 0.5;
+}
+.progressbar_value{
+    background: var(--progress-col);
+    width: calc( 100% * ( var(--progress-val) / ( var(--progress-max) - var(--progress-min) ) ) );
+}

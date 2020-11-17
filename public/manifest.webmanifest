@@ -1,0 +1,31 @@
+	{
+	"short_name": "Npc maker",
+	"name": "Npc maker",
+	"description": "A non playing character generator useful for game masters",
+	"icons": [
+		{
+			"src": "logo512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/?source=pwa",
+	"background_color": "#0F0326",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#0F0326",
+	"shortcuts": [
+		{
+			"name": "Npc maker",
+			"short_name": "Npc maker",
+			"description": "A non playing character generator useful for game masters",
+			"url": "/today?source=pwa",
+			"icons": [
+				{ 
+					"src": "logo512.png", 
+					"sizes": "512x512" 
+				}
+			]
+		}
+	]
+}

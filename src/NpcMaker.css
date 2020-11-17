@@ -1,0 +1,14 @@
+@import-normalize;
+
+:root{
+    --main-bg: linear-gradient( -30deg, #595959, #7F7F7F, #A5A5A5, #93867F );
+    --text-col: #fff;
+}
+
+
+body{
+    background: var(--main-bg);
+    background-attachment: fixed;
+    background-size: cover;
+    color:var(--text-col);
+}

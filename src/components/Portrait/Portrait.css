@@ -1,0 +1,20 @@
+.portrait{
+    display:inline-block;
+    width: var(--portrait-size);
+    height: var(--portrait-size);
+    background-color: transparent;
+    border-radius: 50%;
+    overflow:hidden;
+    contain:layout;
+    position: relative;
+    border: 2px solid var(--portrait-bd-col);
+    margin: 1em auto;
+}
+.portrait>img{
+    display:block;
+    border:0;
+    padding: 0;
+    margin:0;
+    top:0;
+    left:0;
+}
